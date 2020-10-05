@@ -34,7 +34,7 @@ public sealed class Curves
     /// <param name="start">return value at t=0.</param>
     /// <param name="end">return value at t=1.</param>
     /// <param name="t">progress value between 0 and 1. Going out of this range may returns unexpected results.</param>
-    public delegate float Function<T>(T start, T end, float t);
+    public delegate T Function<T>(T start, T end, float t);
 
     public static Function<float> GetFunctionFloat(FunctionType function)
     {
