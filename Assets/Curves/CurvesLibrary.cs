@@ -809,7 +809,7 @@ public sealed class Curves
 /// <summary>
 /// Monobehaviour that draws the curves on screen, for debugging only.
 /// </summary>
-public class CurvesLibrairie : MonoBehaviour
+public class CurvesLibrary : MonoBehaviour
 {
     [SerializeField] Curves.FunctionType functionToView;
     const int SAMPLES = 100;
